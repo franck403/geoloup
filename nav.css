@@ -23,8 +23,8 @@ ul li a:hover {
 }
 
 ul li.active a {
-    background: #fff;    
-    color: #000;
+    background: #000;    
+    color: #fff;
 }
 
 .navBar {
