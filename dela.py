@@ -4,13 +4,13 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename
 
 
 def open_website():
-    webbrowser.open_new("https://gilaxy04ytbcompte2.github.io/loowriters")
+    webbrowser.open_new("https://github.geoloup.com/")
 
 def open_website_new():
-    webbrowser.open_new("https://gilaxy04ytbcompte2.github.io/loowriters/news")
+    webbrowser.open_new("https://github.geoloup.com/new.html")
 
 def open_website_rule():
-    webbrowser.open_new("https://gilaxy04ytbcompte2.github.io/loowriters/rules")
+    webbrowser.open_new("https://github.geoloup.com/credit.html")
 
 def open_file():
     """Open a file for editing."""
