@@ -66,8 +66,8 @@ ul li.active a {
 .text {
     position: absolute;
     top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 45%;
+    transform: translate(-40%, -40%);
 }
 .texta {
     color: #fff;
