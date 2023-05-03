@@ -5,15 +5,10 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
-
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://gilaxy04ytbcompte2.github.io/loowriters/storage/img/background.png);
-    height: 97vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+body  {
+    background:white;
+    margin:0;
 }
-
 .logo a {
     padding: 0px 20px;
     border: 1px solid transparent;
