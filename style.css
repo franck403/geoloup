@@ -68,7 +68,9 @@ ul li.active a {
 }
 
 .bouton {
-    height:auto;
+    height: auto;
+    text-align: center;
+    margin-top: 23px;
 }
 .bouton a {
     border: 1px solid #fff;
