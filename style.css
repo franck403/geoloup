@@ -99,3 +99,11 @@ ul li.active a {
     margin: 15px;
     padding: 6px;
 }
+
+.project-date {
+    float: right;
+    font-size: 17px;
+}
+.project-name {
+    font-weight: bold;
+}
