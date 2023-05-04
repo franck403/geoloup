@@ -93,15 +93,15 @@ ul li.active a {
 }
 
 .project-card {
-    color:white;
-    background:#090e80;
+    color:black;
+    background:white;
     border-radius: 18px;
     margin: 15px;
     padding: 6px;
 }
 
 .project-date {
-    float: right;
+    text-align: right;
     font-size: 17px;
 }
 .project-name {
