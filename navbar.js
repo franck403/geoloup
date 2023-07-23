@@ -3,13 +3,14 @@ link = {
     "project": "",
     "blog": "",
 }
-links = [["https://geoloup.com/blog/", "blog"],["https://geoloup.com/blog", "blog"], ["https://geoloup.com/", "accueil"], ["https://geoloup.com/project", "project"],]
+links = [["https://geoloup.com/blog/", "blog"], ["https://geoloup.com/", "accueil"], ["https://geoloup.com/project", "project"],]
 
 links.forEach(element => {
     if (element[0] == document.URL) {
         link[element[1]] == "active"
     }
 });
+console.log(link)
 preview = `
 <ul>
 <li class="${link["accueil"]}">
