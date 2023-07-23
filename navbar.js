@@ -8,6 +8,7 @@ links = [["https://geoloup.com/blog/", "blog"], ["https://geoloup.com/", "accuei
 links.forEach(element => {
     if (element[0] == document.URL) {
         link[element[1]] == "active"
+        console.log(link)
     }
 });
 console.log(link)
