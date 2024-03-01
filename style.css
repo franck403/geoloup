@@ -72,6 +72,9 @@ ul li.active a {
     height: auto;
     text-align: center;
     margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .bouton a {
     border: 1px solid #fff;
