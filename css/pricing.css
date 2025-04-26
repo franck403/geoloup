@@ -1,0 +1,135 @@
+/* Pricing Header */
+.pricing-header {
+    text-align: center;
+    padding: 120px 0 60px;
+}
+
+.pricing-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-header p {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+.dark-mode .pricing-header p {
+    color: #999;
+}
+
+/* Pricing Plans */
+.pricing-plans {
+    padding: 40px 0 80px;
+}
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.plan-card {
+    background-color: var(--card-light);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+.dark-mode .plan-card {
+    background-color: var(--card-dark);
+}
+
+.plan-card.featured {
+    transform: scale(1.05);
+    border: 2px solid var(--primary-color);
+}
+
+.plan-card.featured::before {
+    content: 'Most Popular';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-color);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 100px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.plan-header {
+    margin-bottom: 2rem;
+}
+
+.plan-header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.price .amount {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.price .period {
+    color: #666;
+}
+
+.dark-mode .price .period {
+    color: #999;
+}
+
+.plan-features {
+    list-style: none;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.plan-features li {
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.dark-mode .plan-features li {
+    color: #999;
+}
+
+.plan-card .btn {
+    width: 100%;
+    text-align: center;
+}
+
+/* Contact Section Dark Mode */
+.dark-mode .contact .container {
+    background-color: var(--card-dark);
+}
+
+.dark-mode .contact h2,
+.dark-mode .contact p {
+    color: var(--text-dark);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pricing-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .plan-card.featured {
+        transform: scale(1);
+    }
+}

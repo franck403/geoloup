@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore Geoloup's portfolio of desktop and web applications. View our latest projects including Repviewer, Ic-hat, and more."
+    />
+    <meta
+      name="keywords"
+      content="app portfolio, web projects, desktop applications, Repviewer, Ic-hat"
+    />
+    <meta name="author" content="Geoloup" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://geoloup.com/projects" />
+    <title>Projects | Geoloup - App & Web Development</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="dark-mode">
+    <script src="js/main.js"></script>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo"></a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html" class="active">Projects</a>
+          <a href="pricing.html">Pricing</a>
+        </div>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="Toggle theme"
+        >
+          <span class="theme-toggle-light">☀️</span>
+          <span class="theme-toggle-dark">🌙</span>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="projects-header">
+        <div class="container">
+          <h1>Our Projects</h1>
+          <p>The most known project we made</p>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="container">
+          <div class="filter-buttons">
+            <button class="filter-btn" data-filter="app">App</button>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+          </div>
+
+          <div class="projects-grid">
+            <div
+              class="project-card"
+              onclick="project(event)"
+              data-url="repviewer.geoloup.com/"
+              data-category="app"
+            >
+              <img
+                src="https://repviewer.geoloup.com/repviewer.png"
+                alt="Repviewer - Recipe viewing application for Windows"
+              />
+              <div class="project-info">
+                <h3>Repviewer</h3>
+                <p>Recepies viewer for windows</p>
+                <div class="project-tags">
+                  <span>App</span>
+                  <span>Node.JS</span>
+                  <span>Electron</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="project-card"
+              onclick="project(event)"
+              data-url="ic-hat.geoloup.com/"
+              data-category="web"
+            >
+              <img
+                src="ic-hat.png"
+                alt="Ic-hat - Open source chat application"
+              />
+              <div class="project-info">
+                <h3>Ic-hat</h3>
+                <p>Chat that is open-source</p>
+                <div class="project-tags">
+                  <span>Firebase</span>
+                  <span>web</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="project-card"
+              onclick="project(event)"
+              data-url="franck403.github.io/phoneClock/"
+              data-category="web"
+            >
+              <img src="clock.png" alt="Clock - Real-time clock application" />
+              <div class="project-info">
+                <h3>Clock</h3>
+                <p>Real-time clock</p>
+                <div class="project-tags">
+                  <span>Web</span>
+                  <span>Open-Weather</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">Geoloup</div>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="pricing.html">Pricing</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Geoloup. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://devtool.geoloup.com/devtool.js"></script>
+  </body>
+</html>
